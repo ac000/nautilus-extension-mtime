@@ -1,0 +1,4 @@
+A nautilus extension to add a column to the list view to display mtime in
+ISO 8601 format, eg
+
+    2013-03-13 20:23:35
