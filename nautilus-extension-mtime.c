@@ -1,7 +1,7 @@
 /*
  * nautilus-extension-mtime.c - Extension to display mtime in ISO-8601 format
  *
- * Copyright (C) 2013		Andrew Clayton <andrew@digital-domain.net>
+ * Copyright (C) 2013, 2016	Andrew Clayton <andrew@digital-domain.net>
  *
  * Released under the GNU General Public License version 2
  * See COPYING
@@ -18,7 +18,7 @@
 
 #include "nautilus-extension-mtime.h"
 
-#define ISO_8601_FMT	"%04d-%02d:%02d %02d:%02d:%02d"
+#define ISO_8601_FMT	"%04d-%02d-%02d %02d:%02d:%02d"
 
 typedef struct {
 	GObject parent_slot;
