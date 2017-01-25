@@ -1,7 +1,7 @@
 /*
  * nautilus-extension-mtime.c - Extension to display mtime in ISO-8601 format
  *
- * Copyright (C) 2013, 2016	Andrew Clayton <andrew@digital-domain.net>
+ * Copyright (C) 2013, 2017	Andrew Clayton <andrew@digital-domain.net>
  *
  * Released under the GNU General Public License version 2
  * See COPYING
