@@ -1,6 +1,6 @@
 Summary:	Display mtime in ISO 8601 format
 Name:		nautilus-extension-mtime
-Version:	001
+Version:	002
 Release:	1%{?dist}
 Group:		User Interface/Desktops
 License:	GPLv2
@@ -31,5 +31,8 @@ rm -rf $RPM_BUILD_ROOT
 /usr/lib64/nautilus/extensions-3.0/nautilus-extension-mtime.so
 
 %changelog
+* Wed Jan 25 2016 Andrew Clayton <andrew@digital-domain.net> - 002-1
+- Fix YYYY-MM-DD display.
+
 * Wed Mar 13 2013 Andrew Clayton <andrew@digital-domain.net> - 001-1
 - Initial version
